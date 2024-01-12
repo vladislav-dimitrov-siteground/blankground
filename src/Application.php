@@ -11,6 +11,6 @@ class Application
 
     public function sayHello(): string
     {
-        return 'Hello World!';
+        return 'Hello World of GitHub!';
     }
 }
