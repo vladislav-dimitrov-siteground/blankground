@@ -1,0 +1,30 @@
+{
+    "name": "vladislav.dimitrov/blankground",
+    "description": "POC project for the needs of the SiteGround WebDev team",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\Unit\\": "tests/unit/"
+        }
+    },
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.4",
+        "m4tthumphrey/php-gitlab-api": "^11.12",
+        "guzzlehttp/guzzle": "^7.8",
+        "http-interop/http-factory-guzzle": "^1.2",
+        "monolog/monolog": "^3.5"
+    },
+    "authors": [
+        {
+            "name": "Vladislav Dimitrov",
+            "email": "vladislav.dimitrov@siteground.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

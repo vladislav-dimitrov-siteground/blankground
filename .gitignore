@@ -1,0 +1,5 @@
+.idea
+/vendor/
+/tests/.phpunit.cache/
+Default.html
+php_errorlog
