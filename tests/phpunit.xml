@@ -10,7 +10,11 @@
          requireCoverageMetadata="false"
          bootstrap="../vendor/autoload.php"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.4/phpunit.xsd">
-    <coverage/>
+    <coverage>
+        <include>
+            <directory suffix=".php">../src</directory>
+        </include>
+    </coverage>
     <testsuites>
         <testsuite name="unit">
             <directory>unit</directory>
